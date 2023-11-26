@@ -1,0 +1,55 @@
+
+//MediaQueries/mixins
+@mixin telefono {
+    @media (min-width: 480px) {
+        @content; //El codigo se escribe aca
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+//Grid
+
+@mixin grid ($columnas,$gap) {
+    display: grid;
+    grid-template-columns: repeat($columnas,1fr);
+    gap: $gap;
+}
+
+//Resetear listas
+
+@mixin resetear-lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+//Boton (display block toma todo el espacio, inline block solo el que requiere)
+
+@mixin boton ($BgColor,$display) {
+    background-color: $BgColor;
+    color: $blanco;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top:  2.5rem;
+    display: $display;
+    border: none;
+
+    &:hover {
+        background-color: darken($BgColor,5);
+        cursor: pointer;
+    }
+
+}
