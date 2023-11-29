@@ -3,8 +3,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   
-
-
+  margin-top: 5rem;
+  
 
 }
 
@@ -20,9 +20,10 @@
 
 .nosotros_individual {
   
-  height: 40rem;
-
-
+  height: 30rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-top: 2rem;
   h2 {
     color: $blanco;
     margin-top: 0;
@@ -43,7 +44,14 @@
   }
   p {
     color: $blanco;
+    font-size: 1.5rem;
+    text-align: left;
   }
 }
 
 
+.contenedor2{
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
