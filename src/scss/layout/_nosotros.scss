@@ -4,8 +4,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   
   margin-top: 5rem;
-  
-
+  margin-right: auto;
+  margin-left: 0;
+  width: 100%;
 }
 
 .icono {
@@ -52,6 +53,7 @@
 
 .contenedor2{
     width: 100%;
-    max-width: 120rem;
+    max-width: 140rem;
     margin: 0 auto;
+
 }

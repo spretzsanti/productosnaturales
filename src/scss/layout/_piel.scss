@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.cartel {
+  position: absolute;
+  top: 121rem;
+  left: 0;
+  color: $blanco;
+  border-radius: 0.5rem;
+  height: 20rem;
+  width: 45rem;
+  z-index: 2;
+  background-color: $negro;
+  h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_piel {
+  margin-top: 5rem;
+  height: 45rem;
+  z-index: 3;
+  
+}
+.contenedoresp {
+
+    width: 100%;
+    max-width: 135rem;
+    margin: 0 auto;
+}
+
+.btn_piel {
+  display: inline-block;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  background-color: $blanco;
+  padding: 2rem;
+  color: $negro;
+  font-family: 'Pacifico', cursive;
+}
